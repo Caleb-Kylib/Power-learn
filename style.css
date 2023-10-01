@@ -1,7 +1,14 @@
+::root{
+   --wrapper-padding-inline: 1rem;
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 header{
     background-color: darkgray;
@@ -38,4 +45,109 @@ nav ul li a:hover{
 .logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    ;
+}
+.story img{
+    max-width: 500px;
+    float:left;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    height: auto;
+    max-height: 350px;
+    margin-right: 20px;
+    
+}
+.about-us{
+    color:black ;
+    
+}
+.about-us h2{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us p{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.our-values img{
+    max-width: 500px;
+    float:right;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    height: auto;
+    max-height: 350px;
+    margin-right: 20px;
+    
+}
+.our-values{
+    color:black ;
+}
+
+.our-values h2{
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-values p{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.history img{
+    max-width: 700px;
+    float:left;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    height: auto;
+    max-height: 350px;
+    margin-right: 20px;
+    
+}
+.history{
+    color:black ;
+}
+.history h2{
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history p{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.h3{
+    font-size: 42px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
